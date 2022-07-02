@@ -1,0 +1,235 @@
+/*CSS Reset / Normalize*/
+
+
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
+en las secciones señaladas */
+
+
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+.menu__header {
+    padding-left: 2rem;
+}
+
+.menu__title {
+    padding-left: 2rem;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title__div {
+    display: flex;
+}
+
+.title__bio {
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.title__profile {
+    padding: 1rem;
+    width: 10rem;
+    height: 10rem;
+}
+
+.title__subsection {
+    flex-wrap: wrap;
+    text-align: justify;
+    padding-bottom: 2rem;
+}
+
+.title__network {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.skills__box {
+    display: inline-flex;
+    align-items: center;
+}
+
+.hobbies {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.hobbies__box {
+    display: inline-flex;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.academic__courses {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+}
+
+.academic__title {
+    text-align: center;
+}
+
+.experience__section__title {
+    text-align: center;
+}
+
+.experiencie__box {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience__img {
+    justify-content: center;
+}
+
+.experience__info {
+    text-align: center;
+}
+
+.experience__title {
+    text-align: center;
+}
+
+.experience__text {
+    text-align: center;
+}
+
+.experience__repo {
+    display: flex;
+    justify-content: center;
+}
+
+.experience__demo {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__rodape {
+    text-align: center;
+}
+
+.formcontato {
+    display: flex;
+    justify-content: center;
+}
+
+.formcontato__title {
+    text-align: center;
+}
+
+.formcontato__subtext {
+    text-align: center;
+}
+
+.formcontato__form {
+    max-width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+:root {
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo);
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+
+/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
+
+Lo que es el BEM?
+
+BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
+desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
+independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
+con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
+
+Enlace de la documentación oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+
+/*Sección Menu*/
+
+section.menu {}
+
+
+/*Sección Title*/
+
+section.title {}
+
+
+/*Sección About*/
+
+section.about {}
+
+
+/*Sección Hobbies*/
+
+section.hobbies {}
+
+
+/* Experiencia Académica*/
+
+section.academic {}
+
+
+/* experiencia*/
+
+section.experience {}
+
+
+/*Contacto*/
+
+section.formcontato {}
+
+
+/*footeer*/
+
+section.footer {}
+
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+
+@media (min-width: 768px) {}
+
+
+/*Mobile*/
+
+@media (min-width: 425px) {}
